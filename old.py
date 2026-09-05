@@ -77,7 +77,7 @@ def window1():
 sys.stdout.write('\x1b]2;𓆩【JOY 】𓆪 \x07')
 
 
-    # JOY Clover Logo - Green - Version 2.5
+    # sayem Clover Logo - Green - Version 2.5
 def ____banner____():
     if 'win' in sys.platform:
         os.system('cls')
@@ -86,12 +86,9 @@ def ____banner____():
     
     print("""\033[1;32m
         
-░░░░░██╗░█████╗░██╗░░░██╗
-░░░░░██║██╔══██╗╚██╗░██╔╝
-░░░░░██║██║░░██║░╚████╔╝░
-██╗░░██║██║░░██║░░╚██╔╝░░
-╚█████╔╝╚█████╔╝░░░██║░░░
-░╚════╝░░╚════╝░░░░╚═╝░░░
+╭━━━━━━━━━━━━━━━━━━━━╮
+┃  S A Y E M  ⚡     ┃
+╰━━━━━━━━━━━━━━━━━━━━╯
 \033[0m""")
 
 
