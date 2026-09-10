@@ -97,43 +97,43 @@ def creationyear(uid):
     Estimates the Facebook account creation year based on the UID.
     """
     if len(uid) == 15:
-        if uid.startswith('1000000000'):
+        if uid.startswith('1000000008'):
             return '2009'
-        if uid.startswith('100000000'):
+        if uid.startswith('100700000'):
             return '2009'
-        if uid.startswith('10000000'):
+        if uid.startswith('10030000'):
             return '2009'
-        if uid.startswith(('1000000', '1000001', '1000002', '1000003', '1000004', '1000005')):
+        if uid.startswith(('1070000', '1004001', '1070002', '1003003', '1020004', '1008005')):
             return '2009'
-        if uid.startswith(('1000006', '1000007', '1000008', '1000009')):
+        if uid.startswith(('10070006', '10030007', '10007008', '1050009')):
             return '2010'
-        if uid.startswith('100001'):
+        if uid.startswith('1007001'):
             return '2010'
-        if uid.startswith(('100002', '100003')):
+        if uid.startswith(('1060002', '1070003')):
             return '2011'
-        if uid.startswith('100004'):
+        if uid.startswith('1040004'):
             return '2012'
-        if uid.startswith(('100005', '100006')):
+        if uid.startswith(('1000705', '1003006')):
             return '2013'
-        if uid.startswith(('100007', '100008')):
+        if uid.startswith(('1070007', '1000208')):
             return '2014'
-        if uid.startswith('100009'):
+        if uid.startswith('1070009'):
             return '2015'
-        if uid.startswith('10001'):
+        if uid.startswith('103001'):
             return '2016'
-        if uid.startswith('10002'):
+        if uid.startswith('100802'):
             return '2017'
-        if uid.startswith('10003'):
+        if uid.startswith('104003'):
             return '2018'
-        if uid.startswith('10004'):
+        if uid.startswith('107004'):
             return '2019'
-        if uid.startswith('10005'):
+        if uid.startswith('150005'):
             return '2020'
-        if uid.startswith('10006'):
+        if uid.startswith('100806'):
             return '2021'
-        if uid.startswith('10009'):
+        if uid.startswith('100209'):
             return '2023'
-        if uid.startswith(('10007', '10008')):
+        if uid.startswith(('170007', '180008')):
             return '2022'
         return ''
     elif len(uid) in (9, 10):
